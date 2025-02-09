@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/css-gg.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="resources/logo.svg" type="image/svg" />
+    <title>Mi Sitio CCV</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="js/site.js"></script>
+</head>
+
+<body>
+    <div class="main-content">
+        <aside>
+            <div class="profile">
+                <img src="resources/FOTO _ UTP0155373.jpg" id="photo-profile" class="my-photo" />
+                <div>
+                    <h1 class="title">DANNA GISEL PEREZ RIVERA</h1>
+                    <div class="badge-profile">Programadora</div>
+                    <div class="social">
+                            <a href="facebook.com" target="_blank"><i class="gg-facebook"></i></a>
+                            <a href="twitter.com" target="_blank"><i class="gg-twitter"></i></a>
+                            <a href="YouTube.com" target="_blank"><i class="gg-youtube"></i></a>
+                            <a href="pokemon-go.com" target="_blank"><i class="gg-pokemon"></i></a>
+                    </div>
+                </div>
+                <div class="info">
+                    <ul class="contacts-block">
+                        <li class="contacts-block-item"><i class="gg-calendar"></i>Agosto 23 </li>
+                        <li class="contacts-block-item"><i class="gg-pin"></i>Puebla, puebla</li>
+                        <li class="contacts-block-item"><i class="gg-mail"></i><a
+                                href="mailto:example@mail.com">giselrive64@gmail.com</a></li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>22-28-47-70-50</li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i><a
+                                href="skype:skype-example">skype:danna-2342</a></li>
+                    </ul>
+                    <a class=" btn" href="#">Download CV</a>
+                </div>
+            </div>
+        </aside>
+        <section>INFORMACION</section>
+        <section class="resume">
+            <h2 class="title bordered"> portafolio</h2>
+            <div class="portfolio">
+                <img src="resources/caballo.png" alt="Imagen 1" onclick="showImage(this)">
+                <img src="resources/cupra.jpg" alt="Imagen 2" onclick="showImage(this)">
+                <img src="resources/flor.jpg" alt="Imagen 3" onclick="showImage(this)">
+                <img src="resources/flor2.png" alt="Imagen 4" onclick="showImage(this)">
+                <!-- <img src="resources/mar.jpg" alt="Imagen 5" onclick="showImage(this)">
+                <img src="resources/mario-luigi-yoschi-figures-163036.jpeg" alt="Mario, Luigi y Yoshi" onclick="showImage(this)">
+                <img src="resources/mario-luigi.jpg" alt="Mario y Luigi" onclick="showImage(this)">
+                <img src="resources/bo.png" alt="Imagen 8" onclick="showImage(this)">
+                <img src="resources/6shi.jpg" alt="Imagen 9" onclick="showImage(this)">-->
+                <div class="modal" id="preview" onclick="cerrarModal()"></div> 
+            </div>
+            <header>
+              <div class="menu-circle">
+                <i class="gg-menu-oreos" onclick="toggleMenu()"></i>
+              </div>
+              <div class="inner-menu js-menu">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a href="index.html">Acerca de</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="porfolio.html">Portafolio</a>
+                  </li>
+                </ul>
+              </div>
+              </header>
+        </section>
+    </div>
+    <footer>AUTOR:DANN GISEL PEREZ RIVERA</footer>
+</body>
+</html>
